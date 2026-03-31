@@ -120,7 +120,7 @@ h1 {
     .card {
         display: flex;
         flex-direction: row;
-        width: 42em;
+        width: 43em;
         max-width: 90%;
     }
 
