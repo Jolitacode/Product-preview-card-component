@@ -40,10 +40,6 @@ body {
     height: auto;
 }
 
-.image-perfume-2 {
-    display: none;
-}
-
 .product-detail {
     display: flex;
     flex-direction: column;
@@ -87,6 +83,7 @@ h1 {
     padding: 0.8em;
     border: none;
     border-radius: 0.5em;
+    cursor: pointer;
 }
 
 .cart-btn:hover {

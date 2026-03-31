@@ -16,8 +16,11 @@
 <body>
     <main class="card">
         <section>
-            <img src="assets/image-product-mobile.jpg" alt="perfume Gabrielle Essence" class="image-perfume">
-            <img src="assets/image-product-desktop.jpg" alt="perfume Gabrielle Essence" class="image-perfume-2">
+            <picture>
+                <source media="(min-width: 600px)" srcset="assets/image-product-desktop.jpg">
+
+                <img src="assets/image-product-mobile.jpg" alt="perfume Gabrielle Essence CHANEL" class="image-perfume">
+            </picture>
         </section>
         <section class="product-detail">
             <span class="perfume">PERFUME</span>
