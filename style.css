@@ -75,7 +75,7 @@ h1 {
 .new-price {
     color: var(--green-500);
     font-weight: 700;
-    font-family: 'Fraunces';
+    font-family: 'Fraunces', serif;
     font-size: 2rem;
 }
 
@@ -120,8 +120,7 @@ h1 {
     .card {
         display: flex;
         flex-direction: row;
-        width: 43em;
-        max-width: 90%;
+        width: min(43em, 90%);
     }
 
     .card figure,
